@@ -1,0 +1,27 @@
+{
+    "name": "beapp/geocoder-transport-google",
+    "description": "Google transport for geocoding library",
+    "keywords": [
+        "geocoder",
+        "google"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Damien Villeneuve",
+            "email": "d.villeneuve@beapp.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "beapp/geocoder-core": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beapp\\Geocoder\\Transport\\Google\\": ""
+        }
+    }
+}
